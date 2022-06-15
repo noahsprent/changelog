@@ -15,7 +15,7 @@ Our GFP part has now been used over 1000 times! There are 1002 publicly-viewable
 ### Fixed
 
 - Changed bases 103-107 in the RBS used in Device 30 to avoid BsaI-HFv2 cut site (Addressing Issue #105 - Part not compatible with MoClo Assembly)
-- The sequence for RFP in Pichia pastoris had been codon-optimised for Saccharomyces cerevisiae (Issue #68), and has now been replaced with a sequence that is properly optimised, reducing burden on the host cell by ~10%
+- The sequence for RFP in *Pichia pastoris* had been codon-optimised for *Saccharomyces cerevisiae* (Issue #68), and has now been replaced with a sequence that is properly optimised, reducing burden on the host cell by ~10%
 
 ### Security
 - We have added the BioSecure script to our regression testing, which will look for potentially nefarious sequences
